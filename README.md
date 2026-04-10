@@ -1,19 +1,43 @@
-  Yurt Arıza Takip Sistemi
+# Yurt Arıza Takip Sistemi
 
-Bu proje, öğrencilerin yurttaki arızaları bildirebildiği,
-görevlilerin bu arızaları takip edip durum güncelleyebildiği
-ve yöneticilerin kullanıcılar ile arızaları yönetebildiği
-basit bir PHP & MySQL uygulamasıdır.
+Bu proje, yurt ortamında oluşan arızaların kullanıcılar tarafından bildirilmesini ve yetkili kişiler tarafından yönetilmesini sağlayan rol tabanlı bir web uygulamasıdır.
 
-  Roller
-- Öğrenci: Arıza ekler ve kendi arızalarını görüntüler
-- Görevli: Arızaları listeler ve durum günceller
-- Yönetici: Kullanıcı ve arıza yönetimi yapar
+##  Özellikler
 
-  Kullanılan Teknolojiler
+- Öğrenciler arıza bildirimi oluşturabilir
+- Görevliler arızaları görüntüleyip durum güncelleyebilir
+- Yöneticiler kullanıcı ve arıza yönetimi yapabilir
+- Rol tabanlı yetkilendirme sistemi
+
+##  Kullanılan Teknolojiler
+
 - PHP
 - MySQL
-- HTML
+- HTML / CSS
 
-  Not
-Bu proje öğrenme amacıyla geliştirilmiştir.
+##  Kurulum
+
+1. Projeyi bilgisayarınıza indirin
+2. XAMPP / WAMP gibi bir yerel sunucu kurun
+3. Projeyi `htdocs` klasörüne atın
+4. MySQL üzerinde bir veritabanı oluşturun
+5. `db.php` dosyasındaki bağlantı ayarlarını düzenleyin
+6. Tarayıcıdan projeyi çalıştırın
+
+##  Roller
+
+- **Öğrenci**
+  - Arıza bildirimi oluşturur
+  - Kendi bildirimlerini görüntüler
+
+- **Görevli**
+  - Arıza kayıtlarını görüntüler
+  - Arıza durumunu günceller
+
+- **Yönetici**
+  - Kullanıcı yönetimi yapar
+  - Tüm arızaları kontrol eder
+
+##  Amaç
+
+Bu proje, web geliştirme sürecinde veritabanı işlemleri, kullanıcı yetkilendirme ve CRUD operasyonları üzerine pratik kazanmak amacıyla geliştirilmiştir.
